@@ -195,6 +195,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * Notification Service Providers...
+         */
+        NotificationChannels\Discord\DiscordServiceProvider::class,
+
     ],
 
     /*
